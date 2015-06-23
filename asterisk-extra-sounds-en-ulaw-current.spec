@@ -40,7 +40,7 @@ Get the additional sound files
 # Extract freePBX archive
 %{__mkdir_p} root/usr/share/asterisk/sounds
 tar xzf %{SOURCE0} -C root/usr/share/asterisk/sounds
-ln -sfn root/usr/share/asterisk/sounds/ /var/lib/asterisk/sounds/en
+ln -sfn /var/lib/asterisk/sounds/en root/usr/share/asterisk/sounds/
 
 %install
 rm -rf $RPM_BUILD_ROOT
