@@ -34,7 +34,7 @@ Get the additional sound files
 
 %prep
 
-%setup #-q #-n #asterisk-extra-sounds-en-ulaw-current-%{version}
+%setup
 
 %build
 # Extract freePBX archive
