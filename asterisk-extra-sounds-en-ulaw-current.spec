@@ -14,7 +14,7 @@ Release:        %{release}%{?dist}
 License:        GPL
 Group:          System/Servers
 Requires:       asterisk
-Source0:	asterisk-extra-sounds-en-ulaw-current.tar.gz
+Source0:	asterisk-extra-sounds-en-ulaw-current-%{version}.tar.gz
 
 BuildRoot:      /var/tmp/%{name}-%{version}-%{release}-buildroot
 URL:            http://downloads.asterisk.org/pub/telephony/sounds/asterisk-extra-sounds-en-ulaw-current.tar.gz
